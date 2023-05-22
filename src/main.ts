@@ -1,5 +1,5 @@
 
-const clientId = 'eab87bd6d9fe41fabd9047a6eb46aace'
+const clientId = ''
 const params = new URLSearchParams(window.location.search);
 const code = params.get("code")
 if (!code) {
